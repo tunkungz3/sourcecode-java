@@ -2,10 +2,10 @@
 public class WorkshopLoop {
 
     public static void main(String[] args) {
-        generateHearth(9);
+        generateStar(9);
     }
 
-    private static void generateHearth(int length) {
+    private static void generateStar(int length) {
         System.out.println(" **   **");
         lineTwo(length);
         for (int i = 0; i < 6; i++) {
