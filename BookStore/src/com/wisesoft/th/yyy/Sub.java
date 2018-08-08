@@ -4,7 +4,7 @@ import com.wisesoft.th.xxx.Base;
 
 public class Sub extends Base{
 
-	 protected void call() {
+	 public void call() {
 		System.out.println("Call from Sub");
 	}
 }
